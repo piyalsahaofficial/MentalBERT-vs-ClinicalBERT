@@ -1,0 +1,35 @@
+Dataset Statistics,,,,
+Class,Train,Val,Test,Total
+Anxiety,3110,389,389,3888
+Bipolar,2302,288,287,2877
+Depression,12323,1540,1541,15404
+Normal,13081,1635,1635,16351
+Personality disorder,961,120,120,1201
+Stress,2135,267,267,2669
+Suicidal,8522,1065,1066,10653
+Total,42434,5304,5305,53043
+,,,,
+Best Validation Performance,,,,
+Metric,ClinicalBERT,MentalBERT,,
+Best Epoch,5,5,,
+Training Loss,0.7288,0.6616,,
+Validation Loss,0.823466,0.801364,,
+Accuracy,0.815799,0.835407,,
+Precision,0.77517,0.803849,,
+Recall,0.783349,0.813948,,
+Macro F1,0.77579,0.807403,,
+,,,,
+Class-Wise F1-Score Comparison,,,,
+Class,ClinicalBERT,MentalBERT,,
+Anxiety,0.850331,0.862547,,
+Bipolar,0.836957,0.856115,,
+Depression,0.759298,0.781601,,
+Normal,0.950989,0.960693,,
+Personality disorder,0.641667,0.677824,,
+Stress,0.652666,0.766551,,
+Suicidal,0.738622,0.746491,,
+,,,,
+Final Performance Comparison,,,,
+Model,Precision (%),Recall (%),Accuracy (%),F1-Score (%)
+ClinicalBERT,77.52,78.33,81.58,77.58
+MentalBERT,80.38,81.39,83.54,80.74
